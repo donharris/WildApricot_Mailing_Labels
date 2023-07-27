@@ -1,4 +1,5 @@
-# WildApricot_Mailing_Labels
+# WildApricot Mailing Labels using their PHP API
+( https://www.wildapricot.com/ )
 
 This is a PHP file that uses the WildApricot API to search and display members from the databse.
 
