@@ -11,6 +11,13 @@
    <input type="submit">
  </form><br>
       <?php
+
+       /**
+       * API helper class. You can copy whole class in your PHP application.
+       * See: https://gethelp.wildapricot.com/en/articles/485-sample-api-applications#php
+       * Also: https://github.com/WildApricot/ApiSamples/blob/master/PHP/sampleApplication.php
+       */
+       
        class WaApiClient
           {
              const AUTH_URL = 'https://oauth.wildapricot.org/auth/token';
@@ -166,11 +173,6 @@
           $waApiClient = WaApiClient::getInstance();
           $waApiClient->initTokenByApiKey('ENTER_YOUR_API_KEY_HERE');
 
-           /**
-           * API helper class. You can copy whole class in your PHP application.
-           */
- 
-      
           $postNameArr = $_POST;
           $name=$postNameArr["Name"];
          
