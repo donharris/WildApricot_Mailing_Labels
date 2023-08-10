@@ -1,9 +1,9 @@
 <html>
 <head>
 <title>Mailing Labels</title>
-<meta name="description" content="WildApricot API Call to create a mailin label">
-<meta name="keywords" content="WildApricot, API">
-<meta name="author" content="Don Harris / dharris@sudoers.com">
+<meta name="description" content="WildApricot API Call to create a printout of mailing labels from your membership database.">
+<meta name="keywords" content="WildApricot, API, member search">
+<meta name="author" content="Don Harris / dharris@sudoers.com / DonaldTHarris@gmail.com">
 </head>
 <body>
  <form action="mailingLabel.php" method="post">
